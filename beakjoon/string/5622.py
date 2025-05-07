@@ -8,7 +8,9 @@
 할머니가 외운 단어가 주어졌을 때, 이 전화를 걸기 위해서 필요한 최소 시간을 구하는 프로그램을 작성하시오
 '''
 def main():
-    dial = input("단어를 입력하세요 : ").strip().upper()
+    #단어 입력력
+    dial = input().strip().upper()
+    #결과값 저장 변수 선언
     result = 0
     i = 0
     for i in range(len(dial)):
